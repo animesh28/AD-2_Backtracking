@@ -51,7 +51,7 @@ public class AllPaths {
 		
 		if(k == 1) {
 			obj.c[0] = s;
-			obj.nc = s;
+			obj.nc = 1;
 		} else {
 			obj.nc = 0;
 			int last = a[k-1];
